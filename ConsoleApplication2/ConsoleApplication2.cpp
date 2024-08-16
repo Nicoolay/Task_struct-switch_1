@@ -4,18 +4,18 @@
 enum class Months
 {
 
-    январь = 1,
-    февраль,
-    март,
-    апрель,
-    май,
-    июнь,
-    июль,
-    август,
-    сентябрь,
-    октябрь,
-    ноябрь,
-    декабрь
+    jan = 1,
+    feb,
+    mar,
+    apr,
+    maj,
+    jun,
+    jul,
+    aug,
+    sept,
+    oct,
+    nov,
+    dec
 };
 int main(int argc, char** argv)
 {
@@ -29,40 +29,40 @@ int main(int argc, char** argv)
         months = static_cast<Months>(monthNumber);
         switch (months)
         {
-        case Months::январь:
+        case Months::jan:
             std::cout << "январь" << std::endl;
             break;
-        case Months::февраль:
+        case Months::feb:
             std::cout << "февраль" << std::endl;
             break;
-        case Months::март:
+        case Months::mar:
             std::cout << "март" << std::endl;
             break;
-        case Months::апрель:
+        case Months::apr:
             std::cout << "апрель" << std::endl;
             break;
-        case Months::май:
+        case Months::maj:
             std::cout << "май" << std::endl;
             break;
-        case Months::июнь:
+        case Months::jun:
             std::cout << "июнь" << std::endl;
             break;
-        case Months::июль:
+        case Months::jul:
             std::cout << "июль" << std::endl;
             break;
-        case Months::август:
+        case Months::aug:
             std::cout << "август" << std::endl;
             break;
-        case Months::сентябрь:
+        case Months::sept:
             std::cout << "сентябрь" << std::endl;
             break;
-        case Months::октябрь:
+        case Months::oct:
             std::cout << "октябрь" << std::endl;
             break;
-        case Months::ноябрь:
+        case Months::nov:
             std::cout << "ноябрь" << std::endl;
             break;
-        case Months::декабрь:
+        case Months::dec:
             std::cout << "декабрь" << std::endl;
             break;
         default:
